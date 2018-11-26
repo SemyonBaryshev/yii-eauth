@@ -13,9 +13,19 @@
     "license": "BSD 2-Clause License",
     "require": {
         "php": ">=5.3.0",
-        "itmages/yii-eoauth":"@stable",
-        "itmages/lightopenid":"@stable"
+        "itmages/yii-eoauth":"dev-fix",
+        "itmages/lightopenid":"dev-fix"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/SemyonBaryshev/yii-eoauth.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/SemyonBaryshev/lightopenid.git"
+        }
+    ],
     "autoload": {
         "classmap": [
             "."
